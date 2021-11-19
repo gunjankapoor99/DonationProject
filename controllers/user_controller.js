@@ -51,7 +51,7 @@ module.exports.create = function(req,res){
     }
     User.findOne({email: req.body.email}, function(err, user){
         if(err){
-            console.log('Error in finding user in signing up');
+            console.log('Error in signing up');
             return;
         }
         if(!user){
@@ -66,5 +66,4 @@ module.exports.create = function(req,res){
             return res.redirect('back');
         }
     });
-
 };
