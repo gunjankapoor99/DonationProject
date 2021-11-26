@@ -6,7 +6,7 @@ module.exports.profile = function(req, res){
             title: 'User Profile',
             profile_user: user
         });
-    }); 
+    });
 };
 
 module.exports.update = function(req, res){
