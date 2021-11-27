@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+#about-header {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#about-header-div {
+    text-align: center;
+}
+
+#about-header-div h1{
+    color: #383636;
+    font-weight: 500;
+}
+
+#about-header-div h6{
+    margin-top: 1rem;
+    color: #4e4c4c;
+    font-weight: normal;
+}
+
+#about-header img {
+    display: block;
+    width: 100%;
+}
+
+#mission-section {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#mission-cards-div {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+}
+
+.product {
+    margin: 1rem;
+    transform: translate(0, 0);
+    width: 220px;
+    height: 240px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.product .imgbox {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product .imgbox h3 {
+     margin-top: 1rem;
+}
+
+.product .imgbox img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.specifies p {
+    font-size: 0.8rem;
+    margin-top: 15px;
+    margin-bottom: -2px;
+}
+
+.product:hover .specifies {
+    bottom: 0
+}
+
+.specifies h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies .price {
+    position: absolute;
+    /* top: 12px; */
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
