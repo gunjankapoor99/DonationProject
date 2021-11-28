@@ -175,7 +175,7 @@
 .contactForm .inputbox input:hover{
     background: #1c55af;
 }
-@media(max-width:1175px){
+@media(max-width:995px){
     .contact{
         padding: 50px;
     }

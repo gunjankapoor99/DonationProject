@@ -13,6 +13,7 @@
   /* background: #4070f4; */
 }
 .wrapper{
+  margin-top: 25px;
   position: relative;
   max-width: 430px;
   width: 100%;
@@ -119,4 +120,14 @@ form .text h3 a:hover{
   text-decoration: none;
   padding: 10px 35px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+@media(max-width:991px){
+  #img1{
+    display: none;
+  }
+
+  .wrapper{
+    margin-bottom: 25px;
+  }
 }
