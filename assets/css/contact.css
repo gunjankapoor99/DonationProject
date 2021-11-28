@@ -8,7 +8,7 @@
 .contact{
     position: relative;
     min-height: 85vh;
-    padding: 15px 160px;
+    padding: 15px 120px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -172,10 +172,16 @@
     border-radius: 5px;
     font-size: 20px;
 }
-.contactForm .inputbox input:hover{
+.contactForm .inputbox input[type="submit"]:hover{
     background: #1c55af;
 }
-@media(max-width:1175px){
+@media screen and (min-width:991px) and (max-width:1175px){
+    .contact{
+          padding: 15px 70px;
+    }
+ 
+}
+@media(max-width:991px){
     .contact{
         padding: 50px;
     }
@@ -192,10 +198,14 @@
         margin: auto;
         margin-bottom: 30px;
     }
+    .box .icon2{
+        padding: 0px 0px 0px 78px;
+    }
      
      .contact-info,.contactForm{
          justify-content: center;
          margin: auto;
         width:50%;
+        align-items: center;
     }
 } 
