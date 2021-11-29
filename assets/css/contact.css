@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -28,6 +31,8 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+
 .gen-query{
     font-size: large;
     margin-top: 50px;
@@ -48,9 +53,10 @@
 }
 
 .contact .content h2{
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 900;
     color: rgb(14, 11, 11);
+    font-family: 'Poppins', sans-serif;
     background-color: rgb(215 210 210 / 40%);
 }
 .contact .content p{
@@ -70,7 +76,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+
 }
  .contact-info .box{
     position: relative;
@@ -150,6 +159,7 @@
     border-bottom: 2px solid rgb(27, 29, 168);
     outline: none;
     resize: none;
+    background: white !important; 
 }
  
 /* .contactForm .inputbox span{
@@ -164,7 +174,7 @@
 } */
 .contactForm .inputbox input[type="submit"]{
     width: 100px;
-    background: #0d6efd;
+    background: #0d6efd !important;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -175,15 +185,9 @@
 .contactForm .inputbox input[type="submit"]:hover{
     background: #1c55af;
 }
-@media screen and (min-width:991px) and (max-width:1175px){
+
     .contact{
-          padding: 15px 70px;
-    }
- 
-}
-@media(max-width:991px){
-    .contact{
-        padding: 50px;
+        padding: 40px;
     }
     .contact-info{
         flex-direction: column;
