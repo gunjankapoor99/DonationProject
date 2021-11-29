@@ -133,3 +133,9 @@ form .text h3 a:hover{
   padding: 10px 35px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
+
+@media(max-width:991px){
+  #donate-img{
+    display: none;
+  }
+}
