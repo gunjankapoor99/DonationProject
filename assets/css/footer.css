@@ -1,0 +1,31 @@
+/* .footer{
+    background-color: rgb(52 42 42 / 85%);
+    padding: 20px 20px;
+}
+.container{
+    max-width: 1170px;
+}
+.footer .container .row{
+    display: flex;
+}
+.row ul{
+    list-style: none;
+} */
+
+.re-line{
+    
+    text-decoration: none;
+    color: black;
+}
+.re-line:hover{
+    color: white;
+}
+h5{
+    text-decoration: underline;
+    text-decoration-thickness:3px;
+}
+.copyright{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 400;
+}
