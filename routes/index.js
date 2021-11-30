@@ -7,6 +7,7 @@ const contactController = require('../controllers/contact_controller');
 console.log('index router loaded!');
 
 router.get('/', homeController.home);
+router.get('/home', homeController.home);
 router.get('/contact', contactController.contactUs);
 router.get('/about', aboutController.aboutUs);
 router.use('/users', require('./users'));
