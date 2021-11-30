@@ -48,9 +48,6 @@ app.use(passport.session());
 
 app.use(passport.setAuthenticatedUser);
 
-app.get("/", function(req,res){
-    res.sendFile(__dirname+"/index.html");
-});
 app.use('/', require('./routes'));
 
 app.listen(port, function(err){
