@@ -11,7 +11,7 @@
 
 #footer{
     background-color: rgb(233, 233, 233);
-    /* border-top: 1px solid rgb(143, 142, 142); */
+    /* border-top: 3px solid rgb(70, 69, 69); */
 }
 
 .re-line{
@@ -20,7 +20,7 @@
     color: black;
 }
 .re-line:hover{
-    color: white;
+    color: rgb(109, 106, 106);
 }
 h6{
     text-decoration-thickness:3px;
