@@ -1,8 +1,5 @@
-/* .footer{
-    background-color: rgb(52 42 42 / 85%);
-    padding: 20px 20px;
-}
-.container{
+
+/* .container{
     max-width: 1170px;
 }
 .footer .container .row{
@@ -12,6 +9,11 @@
     list-style: none;
 } */
 
+#footer{
+    background-color: rgb(233, 233, 233);
+    /* border-top: 1px solid rgb(143, 142, 142); */
+}
+
 .re-line{
     
     text-decoration: none;
@@ -20,8 +22,7 @@
 .re-line:hover{
     color: white;
 }
-h5{
-    text-decoration: underline;
+h6{
     text-decoration-thickness:3px;
 }
 .copyright{
@@ -29,3 +30,7 @@ h5{
     /* font-family: cursive !important; */
     font-weight: 400;
 }
+
+#footer li{
+    font-size: 1rem;
+} 
