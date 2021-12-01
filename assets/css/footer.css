@@ -26,6 +26,6 @@ h5{
 }
 .copyright{
     text-align: center;
-    font-family: cursive;
+    /* font-family: cursive !important; */
     font-weight: 400;
 }

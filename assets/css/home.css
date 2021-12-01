@@ -1,3 +1,31 @@
 .carousel-item{
     height: 90vh;
 }
+
+.card{
+    border: none !important;
+}
+
+.card-body{
+    padding: 0px !important;
+}
+.how-we-work{
+    margin-top: 20px;
+}
+
+.how-we-work h2 {
+    text-align: center;
+    /* letter-spacing: 0.1rem; */
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#card-title{
+    text-decoration: none !important;
+}
+
