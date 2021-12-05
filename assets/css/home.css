@@ -23,13 +23,14 @@
 .cards{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #card-title{
     text-decoration: none !important;
 }
 
-/* Images-grid */
+/* Images-grid
 
   
   .container-image-grid {
@@ -127,4 +128,4 @@
 
   .image-grid {
       text-align: center;
-  }
+  } */
