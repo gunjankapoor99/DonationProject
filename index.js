@@ -5,6 +5,10 @@ const port = 8000;
 
 const expressLayouts = require('express-ejs-layouts');
 const db = require('./config/mongoose');
+const Users = require('./models/user');
+const Faqs = require('./models/faqs');
+const faqController = require("./controllers/faq_controller");
+
 const session = require('express-session');
 const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');

@@ -6,6 +6,10 @@ const contactController = require('../controllers/contact_controller');
 const donateController = require('../controllers/donate_controller');
 const faqController = require('../controllers/faq_controller');
 
+const db = require('../config/mongoose');
+const Users = require('../models/user');
+const Faqs = require('../models/faqs');
+
 
 console.log('index router loaded!');
 
