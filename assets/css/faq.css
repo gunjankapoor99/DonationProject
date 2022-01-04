@@ -1,0 +1,51 @@
+.navbar {
+    display: none !important; 
+}
+
+#faqPage a {
+    position: relative; 
+    float: left; 
+    top: 1rem; 
+    left: 1.5rem;
+}
+
+#searchQuery {
+    background-color: rgb(56,138,140);
+    padding: 3vw 2vw;
+    text-align: center;
+    color: white;
+}
+
+#searchQuery input{
+    border-radius: 2rem;
+    border-style: none;
+    padding: 1rem;
+    height: 3vw;
+    width: 70%;
+    margin: 0.5rem 0rem 2rem 0rem;
+}
+
+#faqs {
+    margin: 4rem 15rem;
+    text-align: center;
+}
+
+#faqs h3{
+    color: rgb(45, 110, 110);
+    margin-bottom: 2rem;
+}
+
+#expertInfo {
+    margin: 4rem 4rem 0;
+    text-align: center;
+}
+
+#askExperts h4{
+    color: rgb(45, 110, 110);
+}
+
+#formButton{
+    background-color: rgb(45, 110, 110);
+    margin-left: 45vw;
+    margin-bottom: 4rem;
+}
