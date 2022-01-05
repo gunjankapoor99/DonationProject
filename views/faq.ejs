@@ -1,0 +1,81 @@
+<link rel="stylesheet" href="css/faq.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div id="faqPage">
+    <a href="/"><i class="fas fa-home" style="color: white; font-size: 2rem;"></i></a>
+    <section id="searchQuery">
+        <h1>How can we help you?</h1>
+        <form id="searchForm" action="/searchQuery" method="post">
+            <input id="searchQuery" type="text" placeholder="Search your query here.">
+        </form>
+        <p>You can also browse your query in the list given below.</p>
+    </section>
+
+    <section id="faqs">
+        <h3>Frequently Asked Questions?</h3>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <% for (i of faqs_list) { %>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading<%=i.id%>">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse<%=i.id%>" aria-expanded="false"
+                            aria-controls="flush-collapse<%=i.id%>">
+                            <%=i.query%>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse<%=i.id%>" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading<%=i.id%>" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <%=i.answer%>
+                                <code>.accordion-flush</code>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+    </section>
+
+    <section id="askExperts">
+        <div id="expertInfo">
+            <h4>Ask Our Experts</h4>
+            <p>If there are any questions that we haven't been able to answer we would love to hear from you!
+                Click the button below to fill the form and a member of our team will solve your query.</p>
+        </div>
+        <button id="formButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+            data-whatever="@mdo">Query Form</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ask Your Query</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Name:</label>
+                                <input type="text" class="form-control" id="recipient-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-id" class="col-form-label">Your Email:</label>
+                                <input type="email" class="form-control" id="recipient-id" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Query:</label>
+                                <textarea class="form-control" id="message-text" required></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
