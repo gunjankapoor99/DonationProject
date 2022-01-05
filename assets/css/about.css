@@ -1,13 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+
+* {
+    box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+html { 
+    width: 100%; 
+    min-height: 100%; 
+} 
 
 body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    text-align: center;
-    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-}
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%; 
+    position:absolute;
+} 
+/* 
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+} */
 
 #about-header {
     text-align: center;
@@ -109,7 +125,6 @@ body {
 
 .specifies .price {
     position: absolute;
-    /* top: 12px; */
     right: 25px;
     font-weight: bold;
     color: #000;
@@ -125,16 +140,16 @@ label {
 
  ul {
     margin: 0;
-    padding: 0
-} 
+    padding: 0 
+}  
 
-/* ul li {
+ul li {
     list-style: none;
     margin: 5px 5px 0;
     font-size: 15px;
     font-style: normal;
     color: #ccc
-}  */
+} 
 
 ul li:first-child {
     margin-left: 0
@@ -169,7 +184,6 @@ ul.colors li:nth-child(4) {
     display: block;
     padding: 5px;
     color: #fff;
-    /* margin: 10px 0 0; */
     width: 100%;
     font-size: 13px;
     border-radius: 2px
@@ -179,7 +193,7 @@ ul.colors li:nth-child(4) {
     padding: 2rem 0;
     text-align: center;
     background-color: rgb(235, 235, 235);
-}
+} 
 
 #about-us-main p{
     font-size: 1rem;
@@ -205,7 +219,7 @@ ul.colors li:nth-child(4) {
 #goals-div {
     margin-top: -4rem;
     text-align: center;
-}
+} 
 
 #goal-name {
     height: 70px;
@@ -277,4 +291,4 @@ ul.colors li:nth-child(4) {
     background-color: white;
     border-radius: 50%;
     z-index: 4;
-}
+} 
