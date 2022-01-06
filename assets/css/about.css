@@ -292,3 +292,9 @@ ul.colors li:nth-child(4) {
     border-radius: 50%;
     z-index: 4;
 } 
+
+@media screen and (max-width: 200px) {
+    body {
+        width: 20%;
+    }
+}
