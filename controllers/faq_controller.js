@@ -1,5 +1,4 @@
 const db = require('../config/mongoose');
-const ApiFeatures = require("../utils/apiFeatures");
 // const Faqs = require('../models/faqs');
 
 const Faqs = require("../faqs.json");

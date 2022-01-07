@@ -4,6 +4,7 @@ const homeController = require('../controllers/home_controller');
 const aboutController = require('../controllers/about_controller');
 const contactController = require('../controllers/contact_controller');
 const donateController = require('../controllers/donate_controller');
+const volunteerController = require('../controllers/volunteer_controller');
 const faqController = require('../controllers/faq_controller');
 
 const db = require('../config/mongoose');
@@ -19,6 +20,7 @@ router.get('/contact', contactController.contactUs);
 router.get('/about', aboutController.aboutUs);
 router.get('/faq', faqController.faq);
 router.get('/donate', donateController.donate);
+router.get('/volunteer', volunteerController.volunteer);
 router.use('/users', require('./users'));
 
 module.exports = router;
