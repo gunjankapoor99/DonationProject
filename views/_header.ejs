@@ -53,8 +53,9 @@
       <ul class="d-flex list-unstyled" style="margin-top: 10px;">
         <% if (locals.user) { %>
           <li>
-            <a href="/users/profile">
-              <%= user.name %>
+            <a href="/users/profile/<%= user.id %>">
+              <!-- <%= user.name %> -->
+              <img src="/images/user_avatar1.jpg" class="header_user_img">
             </a>
           </li>
           <li><a class="btn btn-outline-Primary" href="/users/sign-out">Sign Out</a></li>
