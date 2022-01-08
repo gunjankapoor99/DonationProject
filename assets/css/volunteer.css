@@ -1,0 +1,21 @@
+.main_content{
+    margin-top: 70px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.main_content h3{
+    text-align: center;
+}
+
+.google-form{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+@media(max-width:769px) {
+    .container{
+        margin-left: 60px;
+    }
+}
