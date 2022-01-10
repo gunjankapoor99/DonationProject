@@ -12,6 +12,8 @@ body{
     height: 90vh;
 }
 
+
+
 .card{
     border: none !important;
 }
@@ -39,4 +41,9 @@ body{
 
 #card-title{
     text-decoration: none !important;
+}
+
+.carousel-img{
+    height: 100%;
+    width: 100%;
 }
