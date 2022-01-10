@@ -1,3 +1,7 @@
+/* .body{
+    background-color: aquamarine;
+} */
+
 .main_content{
     margin-top: 70px;
     padding-right: 100px;
@@ -12,6 +16,15 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+}
+
+.volunteer_img{
+    text-align: center;
+}
+
+.volunteer_img img{
+    width: 50%;
+    height: 50%;
 }
 
 @media(max-width:769px) {
