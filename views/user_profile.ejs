@@ -1,16 +1,37 @@
 <link rel="stylesheet" href="/css/user_profile.css">
 
 
+<header id="body-header">
+    <nav id="navbar">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#education">Education</a></li>
+            <li class="nav-item"><a href="#skills">Skills</a></li>
+            <li class="nav-item"><a href="#experience">Experience</a></li>
+            <li class="nav-item"><a href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="about">
+    <div id="profilepic">
+        <img src="/images/profile.png" alt="profilepic">
+        <!-- <img src="/images/user_avatar1.jpg" class="user_profile_img"> -->
+    </div>
+    <h3>
+        <%= profile_user.name %>
+    </h3>
+</section>
+
 <div id="user_profile">
-    <div id="profile">
+    <!-- <div id="profile">
         <img src="/images/user_avatar1.jpg" class="user_profile_img">
         <img src="<%= user.avatar %>" alt="<%= user.name %>" width="100">
 
-        <h2>
-            <%= profile_user.name %>
-        </h2>
+
         <button class="edit_profile"><a href="/users/editProfile/<%= user.id %>">Edit Profile</a></button>
-    </div>
+    </div> -->
     <div id="content">
         <h4>User Details</h4>
         <span><b>Name: </b>
@@ -19,7 +40,9 @@
         <span><b>Email: </b>
             <%=profile_user.email%>
         </span><br />
-        <span><b>Country: </b> India</span>
+        <span><b>Country: </b> India</span></br>
+        <button class="edit_profile"><a href="/users/editProfile/<%= user.id %>">Edit Profile</a></button>
+
     </div>
 </div>
 
