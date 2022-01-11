@@ -6,6 +6,7 @@ const usersController = require('../controllers/user_controller');
 console.log('User router loaded!');
 
 router.get('/profile/:id', usersController.profile);
+router.post('/update/:id', usersController.update);
 
 router.get('/createUser', passport.authenticate(
     'local',
@@ -14,6 +15,8 @@ router.get('/createUser', passport.authenticate(
 
 router.get('/sign-up', usersController.signUp);
 router.get('/sign-in', usersController.signIn);
+router.get('/editProfile/:id', usersController.editProfile);
+
 
 router.post('/create', usersController.create);
 
