@@ -5,16 +5,6 @@
 
 <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script>
 
-
-<!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style=" box-shadow: 0px 5px 18px rgb(0 0 0 / 20%);">
-    <a class="navbar-brand" href="/">Helping Hands</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav mx-auto"> -->
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent nav"
   style=" box-shadow: 0px 5px 18px rgb(0 0 0 / 20%);">
   <a class="navbar-brand" href="/">Helping Hands</a>
@@ -56,6 +46,8 @@
             <a href="/users/profile/<%= user.id %>">
               <!-- <%= user.name %> -->
               <img src="/images/user_avatar1.jpg" class="header_user_img">
+              <!-- <img src="<%= user.avatar %>" alt="<%= user.name %>" width="100"> -->
+
             </a>
           </li>
           <li><a class="btn btn-outline-Primary" href="/users/sign-out">Sign Out</a></li>
@@ -66,5 +58,4 @@
       </ul>
     </div>
   </div>
-
 </nav>

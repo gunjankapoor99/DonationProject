@@ -1,17 +1,19 @@
 #user_profile {
     display: flex;
     flex-wrap: wrap;
-    margin: 3rem 0px;
+    margin: 3rem auto;
+    justify-content: center;
 }
 
 #profile{
-    width: 25%;
+    width: 20%;
     text-align: center;
+    margin-right: 2rem;
 }
 
 #content {
-    width: 70%;
-    border: 0.5px solid rgb(207, 207, 207);
+    width: 50%;
+    border: 0.5px solid rgb(224, 224, 224);
     border-radius: 5px;
     text-align: center;
 }
@@ -24,8 +26,8 @@
 }
 
 .user_profile_img {
-    width: 18vw;
-    height: 18vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     border: 1px solid gray;
 }

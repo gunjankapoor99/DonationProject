@@ -19,11 +19,6 @@ body {
     height: 100%; 
     position:absolute;
 } 
-/* 
-#wrapper {
-    margin-left:auto;
-    margin-right:auto;
-} */
 
 #about-header {
     text-align: center;
@@ -293,8 +288,23 @@ ul.colors li:nth-child(4) {
     z-index: 4;
 } 
 
-@media screen and (max-width: 200px) {
-    body {
-        width: 20%;
+@media screen and (max-width: 700px) {
+    #goals-hr {
+        display: none;
+    }
+    #goal-name:nth-child(2n) {
+        margin-left: 0rem;
+    }
+    #goal-name:nth-child(2n+1) {
+        margin-right: 0rem;
+    }
+    #goal-name:nth-child(2n+1) #goal-icon {
+        float: left;
+        margin: 3px 0 0 5px;
+    }
+    #goal-name:nth-child(2n+1) h5 {
+        float: right;
+        margin-right: 4.5rem;
     }
 }
+
