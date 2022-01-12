@@ -34,7 +34,6 @@
     "passport-local": "^1.0.0",
     "react": "^17.0.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/darkLegend99/DonationProject.git"

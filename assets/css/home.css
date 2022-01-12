@@ -87,6 +87,37 @@ body{
     border-radius: 25px;
 }
 
+.what-to-donate{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.what-to-donate-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 130px;
+}
+
+.what-to-donate-img2{
+    display: flex;
+    margin: 50px 387px 20px 387px;
+    justify-content: space-between;
+}
+
+@media(max-width:1373px) {
+    .what-to-donate-img2{
+        margin: 50px 314px 20px 314px;
+    }
+}
+
+@media(max-width:1229px) {
+    .what-to-donate-img{
+        margin: 0px 29px;
+    }
+    .what-to-donate-img2{
+        margin: 50px 200px 20px 200px;
+    }
+}
 @media(max-width:1060px){
     .raise_fund_img{
         padding: 50px 5px;
@@ -100,8 +131,24 @@ body{
     .raise_fund_content{
         margin-right: 25px;
     }
+    .what-to-donate-img2{
+        margin: 50px 170px 20px 170px;
+    }
+    .what-to-donate-img{
+        margin: 0px 10px;
+    }
 }
 
+@media(max-width:923px){
+    .what-to-donate-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .what-to-donate-img2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media(max-width:875px){
     .raise_fund{
         flex-direction: column-reverse;
