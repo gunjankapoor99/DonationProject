@@ -45,10 +45,11 @@ body {
 
 #body-header {
     height: 75vh;
-    background-image: url('/images/background.jpg');
-    background-size: 100% 200%;
+    /* background-image: url('/images/background.jpg'); */
+    background-image: url(https://wallup.net/wp-content/uploads/2017/11/17/343406-empty-black-text-748x421.jpg);
+    /* background-size: 100% 200%; */
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
     background-attachment: fixed;
 }
 
