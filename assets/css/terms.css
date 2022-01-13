@@ -1,0 +1,16 @@
+#terms {
+    margin: 2rem 10rem;
+}
+
+h1 {
+    background-color: rgb(248, 223, 176);
+    padding: 2rem 9rem;
+}
+
+#terms p {
+    margin-bottom: 2rem;
+}
+
+#terms ul li {
+    padding: 0.3rem;
+}

@@ -6,6 +6,8 @@ const contactController = require('../controllers/contact_controller');
 const donateController = require('../controllers/donate_controller');
 const volunteerController = require('../controllers/volunteer_controller');
 const faqController = require('../controllers/faq_controller');
+const termsController = require('../controllers/terms_controller');
+const privacyPolicyController = require('../controllers/privacyPolicy_controller');
 
 const db = require('../config/mongoose');
 const Users = require('../models/user');
@@ -19,6 +21,8 @@ router.get('/home', homeController.home);
 router.get('/contact', contactController.contactUs);
 router.get('/about', aboutController.aboutUs);
 router.get('/faq', faqController.faq);
+router.get('/termsOfServices', termsController.terms);
+router.get('/privacyPolicy', privacyPolicyController.privacyPolicy);
 router.get('/donate', donateController.donate);
 router.get('/volunteer', volunteerController.volunteer);
 router.use('/users', require('./users'));
