@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 body{
   width: 100%;
 }
@@ -46,4 +47,109 @@ body{
 .carousel-img{
     height: 100%;
     width: 100%;
+}
+
+.raise_fund{
+    display: flex;
+    background-color: rgb(206, 201, 201);
+    justify-content: center;
+}
+
+.raise_fund_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.raise_fund_content h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+}
+.raise_fund_content h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.raise_fund_content p{
+    color: #504f4f;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.raise_fund_img{
+    padding: 50px;
+    
+}
+
+.raise_fund_img img{
+    border-radius: 25px;
+}
+
+@media(max-width:1060px){
+    .raise_fund_img{
+        padding: 50px 5px;
+    }
+}
+
+@media(max-width:940px){
+    .raise_fund_img{
+        padding: 50px 0px;
+    }
+    .raise_fund_content{
+        margin-right: 25px;
+    }
+}
+
+@media(max-width:875px){
+    .raise_fund{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .raise_fund_content a{
+        width: 250px;
+    }
+    .raise_fund_content{
+        margin-bottom: 50px;
+        align-items: center;
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:616px){
+    .raise_fund_img img{
+    width: 500px;
+    }
+    .raise_fund{
+        align-items: center;
+    }
+    .raise_fund_content{
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:505px){
+    .raise_fund_img img{
+        width: 400px;
+        }
+        .raise_fund{
+
+            align-items: center;
+        }
+        .raise_fund_content{
+            margin-right: 0px;
+        }
+}
+
+@media(max-width:403px){
+    .raise_fund_img img{
+        width: 250px;
+        }
+        .raise_fund{
+            align-items: center;
+        }
+        .raise_fund_content{
+            margin-right: 0px;
+        }    
 }
