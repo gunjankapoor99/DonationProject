@@ -11,7 +11,7 @@ html {
 } 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -185,7 +185,7 @@ ul.colors li:nth-child(4) {
 } 
 
 #about-us-main {
-    padding: 2rem 2rem;
+    padding: 4rem 2rem;
     text-align: center;
     background-color: rgb(235, 235, 235);
 } 
@@ -311,7 +311,7 @@ ul.colors li:nth-child(4) {
 #whoweserve {
     display: flex;
     margin: 5rem 0rem 0rem 0rem ;
-    background-color: rgb(218, 217, 217);
+    background-color: rgb(235,235,235);
 }
 
 #serve-img img{
@@ -324,9 +324,9 @@ ul.colors li:nth-child(4) {
 
 #serve-content {
     text-align: center;
-    width: 45%;
-    margin-left: 4rem;
-    margin-top: 5rem;
+    width: 40%;
+    margin-left: 6rem;
+    margin-top: 3rem;
 }
 
 #how-to-help {
@@ -340,16 +340,48 @@ ul.colors li:nth-child(4) {
     margin-top: 5rem;
 }
 .help-img {
-    height: 14rem;
+    height: 13rem;
 }
 #how-to-help-main img{
-    width: 12rem;
+    width: 10rem;
 }
 
 #how-to-help-main div {
-    width: 14rem;
+    width: 12rem;
 }
 
 #how-to-help-main p {
 text-align: left;
+}
+
+#how-to-help-main h3 {
+    text-align: left;
+    }
+
+    #team-main {
+        text-align: center;
+        margin: 3rem;
+    }
+    #team-main h1{
+        margin-bottom: 3rem;
+    }
+#team {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-member {
+    width: 25%;
+}
+
+.team-member li {
+    display: inline;
+}
+
+.team-member h4 {
+    margin-top: 2rem;
+}
+
+.team-member li img {
+    width: 1.3rem !important;
 }
