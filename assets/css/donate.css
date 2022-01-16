@@ -1,0 +1,80 @@
+#myCarousel{
+    margin-left: 4.5%;
+    margin-top: 0.3%;
+}
+.carousel-item img {
+    height: 70vh;
+    width: 95%;
+    
+}
+.leftarrow{
+    padding: 20px;
+    margin-left: -60px;
+}
+.rightarrow{
+    margin-right:11px;
+
+}
+.text-top-img{
+    margin-bottom: 21rem;
+}
+
+.donation-card{
+    margin-top: 2.5rem;
+    margin-left: 8rem;
+    padding: 2rem;
+}
+.person-belong {
+   margin-bottom: 3rem;
+}
+.rbstyle{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.donation-area{
+    margin-bottom: 3rem;
+}
+.darea{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.currency-belong{
+    margin-bottom: 3rem;
+}
+.cbstyle{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.amount-area{
+   display: flex;
+   flex-direction: row;
+   
+}
+.amount-rupee{
+    display: flex;
+    flex-direction: row;
+    width: 630px;
+   align-items: center;
+   justify-content: space-between;
+   font-size: larger;
+   font-weight: 500;
+}
+
+.submit-button{
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight: 500;
+}
