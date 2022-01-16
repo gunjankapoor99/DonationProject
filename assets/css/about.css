@@ -385,3 +385,41 @@ text-align: left;
 .team-member li img {
     width: 1.3rem !important;
 }
+
+@media screen and (max-width: 700px) {
+    .product {
+        width: 60%;
+        height: 25rem;
+    }
+    #about-us-main p {
+        width: 80%;
+    margin: 2rem auto;
+    }
+    #how-to-help-main {
+        display: block;
+    }
+    .help-div {
+        width: 80%;
+        text-align: center;
+        margin: 2rem auto;
+    }
+    #whoweserve {
+        display: block;
+        text-align: center;
+    }
+    #serve-img {
+        border-radius: 10px;
+    }
+    #serve-content {
+        width: 80%;
+        margin: 2rem auto;
+    }
+    #team {
+        display: block;        
+    }
+    .team-member {
+        width: 80%;
+        text-align: center;
+        margin: 2rem auto;
+    }
+}
