@@ -5,6 +5,7 @@ const aboutController = require('../controllers/about_controller');
 const contactController = require('../controllers/contact_controller');
 const donateController = require('../controllers/donate_controller');
 const volunteerController = require('../controllers/volunteer_controller');
+const brandPartnersController = require('../controllers/brandPartners_controller');
 const faqController = require('../controllers/faq_controller');
 const termsController = require('../controllers/terms_controller');
 const fundRaiserController = require('../controllers/fundRaiser_controller');
@@ -27,6 +28,7 @@ router.get('/privacyPolicy', privacyPolicyController.privacyPolicy);
 router.get('/donate', donateController.donate);
 router.get('/fundRaiser', fundRaiserController.fundRaiser);
 router.get('/volunteer', volunteerController.volunteer);
+router.get('/brandPartners', brandPartnersController.brandPartners);
 router.use('/users', require('./users'));
 
 module.exports = router;
