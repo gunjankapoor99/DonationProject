@@ -1,15 +1,40 @@
+.headtext{
+    margin-top: 3.5rem;
+}
+.tcenter{
+    color: rgb(190, 64, 64);
+    text-shadow: 1px 0.5px black ;
+}
+.tright{
+    text-align: right;
+    margin-right: 15rem;
+}
+.headtext2{
+    margin-left: 5rem;
+    margin-right: 7rem;
+    margin-bottom: 3rem;
+}
+
+
+.panel{
+    display: flex;
+    flex-direction: row;
+}
 #myCarousel{
-    margin-left: 4.5%;
-    margin-top: 0.3%;
+    margin-top: 2rem;
+    height: 28rem;
+    /* width: 25rem; */
+    width: 30rem;
+
 }
 .carousel-item img {
-    height: 70vh;
-    width: 95%;
+    height: 77vh;
+    width: 110%;
     
 }
 .leftarrow{
     padding: 20px;
-    margin-left: -60px;
+    margin-left: 10px;
 }
 .rightarrow{
     margin-right:11px;
@@ -20,9 +45,10 @@
 }
 
 .donation-card{
-    margin-top: 2.5rem;
-    margin-left: 8rem;
-    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    padding: 2rem 1.5rem 1.5rem 0rem;
 }
 .person-belong {
    margin-bottom: 3rem;
@@ -30,7 +56,7 @@
 .rbstyle{
     display: flex;
     flex-direction: row;
-    width: 250px;
+    width: 314px;
     align-items: center;
     justify-content: space-between;
     font-size: larger;
@@ -57,16 +83,19 @@
     font-size: larger;
     font-weight: 500;
 }
-
 .amount-area{
    display: flex;
    flex-direction: row;
    
 }
+.amt{
+    display: flex;
+    flex-direction: column;
+}
 .amount-rupee{
     display: flex;
     flex-direction: row;
-    width: 630px;
+    width: 22rem;
    align-items: center;
    justify-content: space-between;
    font-size: larger;
@@ -78,3 +107,149 @@
     font-size: larger;
     font-weight: 500;
 }
+/* .btn1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #24a845;
+     -webkit-transition: all .4s ease; 
+    transition: all .4s ease;
+}
+.btn1::after{
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+} */
+.what-is-monthly[_ngcontent-my-app-c212]{
+    color: #444;
+    margin-top: 30px;
+    text-align: center;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #44464a;
+}
+.heading2{
+    color: #a72929;
+}
+.sub-heading{
+    font-size: x-large;
+    font-weight: 500;
+    margin: 3rem 6rem 1rem 6rem;
+}
+.hr-yellow[_ngcontent-my-app-c212]{
+    width: 10%;
+    background: #a72929;
+    border: 3px solid #a72929;
+    border-radius: 20px;
+    margin: auto;
+}
+.whydonate{
+    display: flex;
+    flex-direction: row;
+    margin: 6rem 2rem 5rem 3rem;
+}
+.imgedit{
+    height: 65px;
+    width: 80px;
+    
+}
+.imgedit2{
+    width: 110px;
+    height: 65px;
+}
+.head{
+    font-size: x-large;
+    font-weight: 700;
+}
+.vl1{
+    border-left: 4px solid #e35d5d;
+    height: 80px;
+    margin-top: 35px;
+}
+.descr{
+    padding: 0px 10px;
+}
+/* whydonate ends */
+ 
+/* impact */
+
+.title{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: #a72929;
+}
+.hr-red{
+    width: 9%;
+    background: #bf9292;
+    border: 2px solid #e5aeae;
+    margin: auto;
+}
+.img{
+    width: 100px;
+    height: 150px;
+}
+.impact-details{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  div.desc2{
+      padding-bottom: 0px;
+
+  }
+  div.desc3{
+    padding: 5px 15px 0px 15px;
+    
+}
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 20%;
+  }
+  .gly{
+      margin-top: 40px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+
+  
