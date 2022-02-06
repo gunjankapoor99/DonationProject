@@ -1,0 +1,64 @@
+.head{
+    background-color: rgb(112 108 108 / 42%);
+}
+.fundraise-header{
+    display: flex;
+    padding: 25px 25px 0px 25px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+
+.header-img img{
+    border: 20px solid #f4eeee;
+    height: 473px;
+    width: 473px;
+    border-radius: 50%;
+}
+
+.header-text{
+    margin: 100px;
+}
+
+.fundraiser-details{
+    display: flex;
+}
+
+.fundraiser-details-content{
+    margin-right: 30px;
+}
+
+.verti-line{
+    width: 1px;
+    margin: 0 20px;
+    background-color: #020202;
+}
+.fundraiser-details-content h3{
+    color: #ed3b3bed;
+}
+
+.fundraise-btn{
+    margin-top: 50px;
+}
+
+.fundraise-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #ee4949;
+    padding: 15px 80px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+.fundraise-btn a:hover{
+    color: white;
+    background-color: #e41515ed;
+}
+
+
+.scroll-section {
+    max-height: 100px;
+    overflow-y: auto;
+  }
+
+
+  

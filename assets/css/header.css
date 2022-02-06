@@ -16,6 +16,22 @@
     margin-left: 7px;
 }
 
+.fundraiser-btn{
+  text-decoration: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  border: 2px solid #ed3b3bed;
+  color: #ed3b3bed;
+  margin-right: 15px;
+}
+
+.fundraiser-btn:hover{
+  background-color: #e41515ed;
+  border: 2px solid #e41515ed;
+  color: white;
+  transition: 0.4s;
+}
+
 .login-btn{
     margin-right: 14px;
     margin-left: 0px !important;

@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 body{
   width: 100%;
 }
 
+.underline{
+    border-bottom: 3px solid #ff5050;
+    width: 105px;
+    margin-bottom: 30px;
+    margin: auto;
+}
 #wrapper {
   margin-left:auto;
   margin-right:auto;
@@ -13,7 +18,28 @@ body{
     height: 90vh;
 }
 
+.carousel-img{
+    /* height: 100%; */
+    width: 100%;
+}
 
+.btn{
+    background-color: #ed3b3bed !important;
+    border: 2px solid #ed3b3bed !important;
+}
+.btn:hover{
+    background-color: #e4151e !important;
+    
+}
+.btn-donate{
+    background-color: #ed3b3bed !important;
+    border: 2px solid #ed3b3bed !important;
+}
+
+.btn-donate:hover{
+    background-color: #e4151e !important;
+    
+}
 
 .card{
     border: none !important;
@@ -27,11 +53,11 @@ body{
     margin-bottom: 10vh;
 }
 
-.how-we-work h2 {
+.how-we-work h1 {
     text-align: center;
-    /* letter-spacing: 0.1rem; */
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 8px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .cards{
@@ -44,10 +70,14 @@ body{
     text-decoration: none !important;
 }
 
-.carousel-img{
-    height: 100%;
-    width: 100%;
+.btn-work{
+    background-color: #ed3b3bed !important;
+    border: 2px solid #ed3b3bed !important;
 }
+.btn-work:hover{
+    background-color: #e41515ed !important;
+}
+
 
 .raise_fund{
     display: flex;
@@ -61,15 +91,25 @@ body{
     justify-content: center;
     margin-right: 50px;
 }
-
+.raise-fund-btn{
+    background-color: #ed3b3bed !important;
+    color: white !important;
+    border:2px solid #ed3b3bed !important;
+    margin-top: 10px;
+}
+.raise-fund-btn:hover{
+    background-color: #e41515ed !important;
+    transition: 2s;
+}
 .raise_fund_content h1{
-    font-family: "Libre Baskerville", serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 700;
 }
 .raise_fund_content h3{
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-    text-decoration: underline;
+    color: #ff5050;
+    text-decoration: underline #ff5050;
 }
 
 .raise_fund_content p{
@@ -86,7 +126,9 @@ body{
 .raise_fund_img img{
     border-radius: 25px;
 }
-
+.text h1{
+    font-family: 'Libre Baskerville', serif;
+}
 .what-to-donate{
     text-align: center;
     margin-top: 20px;
