@@ -1,3 +1,7 @@
+.img1{
+    text-align: center;
+}
+
 .headtext{
     margin-top: 3.5rem;
 }
@@ -10,8 +14,8 @@
     margin-right: 15rem;
 }
 .headtext2{
-    margin-left: 5rem;
-    margin-right: 7rem;
+    margin-left: 8rem;
+    margin-right: 10rem;
     margin-bottom: 3rem;
 }
 
@@ -20,24 +24,31 @@
     display: flex;
     flex-direction: row;
 }
+.left-panel{
+    width: 200rem;
+    margin-left: 1.5rem;
+}
 #myCarousel{
     margin-top: 2rem;
-    height: 28rem;
+    /* height: 28rem;
     /* width: 25rem; */
-    width: 30rem;
+   /* width: 30rem; */
 
 }
+
 .carousel-item img {
-    height: 77vh;
-    width: 110%;
+    height: 53vh;
+    width: 100%;
     
 }
 .leftarrow{
-    padding: 20px;
-    margin-left: 10px;
+    /* padding: 20px;1*/
+    margin-left: 1rem;
+    margin-bottom: 14rem;
 }
 .rightarrow{
-    margin-right:11px;
+    margin-right: 3rem;
+    margin-bottom: 14rem;
 
 }
 .text-top-img{
@@ -46,8 +57,8 @@
 
 .donation-card{
     margin-top: 2rem;
-    margin-left: 5rem;
-    margin-right: 3rem;
+    /* margin-left: 5rem; */
+    margin-right: 2rem;
     padding: 2rem 1.5rem 1.5rem 0rem;
 }
 .person-belong {
@@ -56,7 +67,7 @@
 .rbstyle{
     display: flex;
     flex-direction: row;
-    width: 314px;
+    width: 20rem;
     align-items: center;
     justify-content: space-between;
     font-size: larger;
@@ -70,7 +81,17 @@
     font-size: larger;
     font-weight: 500;
 }
-
+.dntn{
+    margin-left: -390px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+}
+.dnt-menu{
+    margin-right: 4rem !important;
+    margin-bottom: 1rem !important;
+}
 .currency-belong{
     margin-bottom: 3rem;
 }
@@ -85,7 +106,7 @@
 }
 .amount-area{
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    
 }
 .amt{
@@ -101,11 +122,45 @@
    font-size: larger;
    font-weight: 500;
 }
+#donationkaro2 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
+#donationkaro3 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
+#donationkaro5 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
+#donationkaro6 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
 
+
+ .eduamnt{
+    width: 12rem !important;
+    color: #8d0a0ad1 !important;
+    font-size: larger !important;
+}
+.eduamnt2{
+    width: 20rem !important;
+    margin-left: 1rem;
+}
+.edu-foot{
+      text-align: center;
+      margin: 3rem 2rem;
+}
 .submit-button{
     margin-top: 2rem;
-    font-size: larger;
-    font-weight: 500;
+    font-size: x-large;
+    font-weight: 700;
 }
 /* .btn1::before{
     content: '';
@@ -131,7 +186,7 @@
 }
 .heading{
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #44464a;
 }
 .heading2{
@@ -139,7 +194,7 @@
 }
 .sub-heading{
     font-size: x-large;
-    font-weight: 500;
+    font-weight: 400;
     margin: 3rem 6rem 1rem 6rem;
 }
 .hr-yellow[_ngcontent-my-app-c212]{
@@ -180,8 +235,8 @@
 /* impact */
 
 .title{
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 2.5rem;
+    font-weight: bold;
     text-align: center;
     color: #a72929;
 }
