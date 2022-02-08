@@ -36,7 +36,7 @@
   height: 3px;
   width: 28px;
   border-radius: 12px;
-  background: #4070f4;
+  background: #ee4949;
 }
 .wrapper form{
   margin-top: 30px;
@@ -60,7 +60,7 @@ form .input-box input{
 }
 .input-box input:focus,
 .input-box input:valid{
-  border-color: #4070f4;
+  border-color: #ee4949;
 }
 form .policy{
   display: flex;
@@ -75,12 +75,14 @@ form h3{
 .input-box.button input{
   color: #fff;
   letter-spacing: 1px;
-  border: none;
-  background: #4070f4;
+  border: 2px solid #ee4949;
+  background: #ee4949;
   cursor: pointer;
 }
 .input-box.button input:hover{
-  background: #0e4bf1;
+  background-color: #e41515ed;
+  border: solid #e41515ed;
+  transform: 0.5s;
 }
 form .text h3{
  color: #333;
