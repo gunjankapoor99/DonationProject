@@ -30,6 +30,7 @@
   border: 2px solid #e41515ed;
   color: white;
   transition: 0.4s;
+  text-decoration: none;
 }
 
 .login-btn{
