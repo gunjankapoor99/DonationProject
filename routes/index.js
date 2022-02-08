@@ -10,6 +10,7 @@ const faqController = require('../controllers/faq_controller');
 const termsController = require('../controllers/terms_controller');
 const fundRaiserController = require('../controllers/fundRaiser_controller');
 const privacyPolicyController = require('../controllers/privacyPolicy_controller');
+const raisecontroller = require('../controllers/raise_controller');
 
 const db = require('../config/mongoose');
 const Users = require('../models/user');
@@ -30,5 +31,6 @@ router.get('/fundRaiser', fundRaiserController.fundRaiser);
 router.get('/volunteer', volunteerController.volunteer);
 router.get('/brandPartners', brandPartnersController.brandPartners);
 router.use('/users', require('./users'));
+router.get('/freefundraiser', raisecontroller.funds);
 
 module.exports = router;
