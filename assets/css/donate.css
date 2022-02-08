@@ -132,11 +132,17 @@
     margin-bottom: 1.5rem;
     color: #8d0a0ad1;
 }
+#donationkaro4 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
 #donationkaro5 h4{
     text-align: center;
     margin-bottom: 1.5rem;
     color: #8d0a0ad1;
 }
+
 #donationkaro6 h4{
     text-align: center;
     margin-bottom: 1.5rem;
@@ -153,10 +159,17 @@
     width: 20rem !important;
     margin-left: 1rem;
 }
+.clthitem1{
+    margin-left: 0.8rem;
+    margin-right: 3rem;
+}
+
 .edu-foot{
       text-align: center;
       margin: 3rem 2rem;
 }
+
+
 .submit-button{
     margin-top: 2rem;
     font-size: x-large;
