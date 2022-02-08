@@ -31,7 +31,7 @@
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li><a class="dropdown-item" href="/volunteer">Volunteer</a></li>
-          <li><a class="dropdown-item" href="#">NGO Partner</a></li>
+          <li><a class="dropdown-item" href="/ngoPartners">NGO Partner</a></li>
           <li><a class="dropdown-item" href="/brandPartners">Brand Partner</a></li>
         </ul>
       </li>
@@ -41,7 +41,7 @@
     </ul>
     <div class="d-flex">
       <ul class="d-flex list-unstyled" style="margin-top: 10px;">
-        <a href="" class="fundraiser-btn">Start Fundraiser</a>
+        <a href="/fundRaiser" class="fundraiser-btn">Start Fundraiser</a>
         <% if (locals.user) { %>
           <li>
             <a href="/users/profile/<%= user.id %>">
