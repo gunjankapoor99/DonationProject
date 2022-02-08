@@ -11,13 +11,8 @@ const termsController = require('../controllers/terms_controller');
 const fundRaiserController = require('../controllers/fundRaiser_controller');
 const freeFundRaiserController = require('../controllers/freeFundRaiser_controller');
 const privacyPolicyController = require('../controllers/privacyPolicy_controller');
-<<<<<<< HEAD
 const raisecontroller = require('../controllers/raise_controller');
-=======
 const ngoPartnersController = require('../controllers/ngoPartners_controller');
-
-
->>>>>>> cb1164f6b2631dfaec4391096a6bffcf03ab4dd2
 
 const db = require('../config/mongoose');
 const Users = require('../models/user');
