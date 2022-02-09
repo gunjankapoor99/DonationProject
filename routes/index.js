@@ -35,6 +35,7 @@ router.get('/volunteer', volunteerController.volunteer);
 router.get('/brandPartners', brandPartnersController.brandPartners);
 router.get('/ngoPartners', ngoPartnersController.ngoPartners);
 router.use('/users', require('./users'));
+router.use('/donate', require('./donate'));
 router.get('/freefundraiser', raisecontroller.funds);
 
 module.exports = router;
