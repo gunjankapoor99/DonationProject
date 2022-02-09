@@ -29,6 +29,7 @@
     height: 309px;
     border-radius: 10px;
     text-align: center;
+    align-items: center;
     box-shadow: 0 30px 40px rgba(0,0,0,.1);   
 }
 
@@ -98,4 +99,13 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -10%);
     width: 80%;
+}
+
+.cardFooter a{
+    background-color: #ed3b3bed !important;
+}
+
+.cardFooter a:hover{
+    background-color: #e41515ed !important;
+    transition: 0.4s;
 }
