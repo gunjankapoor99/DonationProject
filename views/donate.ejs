@@ -23,8 +23,11 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css" integrity="sha512-mR/b5Y7FRsKqrYZou7uysnOdCIJib/7r5QeJMFvLNHNhtye3xJp1TdJVPLtetkukFn227nKpXD9OjUc09lx97Q==" crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
 
-<div class="donation-section">
+
 
     <div class="img1">
         <img src="./images/Donate9.jpg" alt="" width="100%" style="height: 25rem;">
@@ -142,6 +145,12 @@
                     </div>
                     <div class="rbstyle">
                         <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="optradio" id="countrybelong1" value="Indian"
+                                checked>
+                            <label class="form-check-label" for="countrybelong1"><strong>Indian</strong></label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="optradio" id="countrybelong2" value="Other Country">
                             <input class="form-check-input" type="radio" name="optradio" id="countrybelong1"
                                 value="Indian" checked>
                             <label class="form-check-label" for="countrybelong1"><strong>Indian</strong></label>
@@ -336,14 +345,18 @@
                                         feeding of <span>3 child for 1 year </span>)</label>
                                 </div>
                                 <div class="form-check form-check-inline">
+                                    <input class="form-check-input mt-3" type="radio" name="Feedachild" id="Feedachild1"
+                                        value="3.2">
                                     <input class="form-check-input" type="radio" name="Feedachild" id="Feedachild1"
                                         value="feedSix">
                                     <label class="form-check-label" for="Feedachild"><span>
                                             <strong>Rs. 12,000/-</strong> </span>(for
                                         feeding of <span>6 children for 1 year
                                         </span>)</label>
-                                </div>
+                                    </div>
                                 <div class="form-check form-check-inline">
+                                    <input class="form-check-input mt-3" type="radio" name="Feedachild" id="Feedachild1"
+                                        value="3.3">
                                     <input class="form-check-input" type="radio" name="Feedachild" id="Feedachild1"
                                         value="feedTen">
                                     <label class="form-check-label" for="Feedachild"><span>
@@ -687,7 +700,6 @@
         document.getElementById("rupees").style.display = "none";
         document.getElementById("dollar").style.display = "flex";
     }
-
     //     $(function() {
     //     $('input[name="type"]').on('click', function() {
     //         if ($(this).val() == 'Experienced') {
@@ -708,7 +720,6 @@
                 $('#DonationKaro5').hide();
                 $('#DonationKaro6').hide();
             }
-
             else if ($(this).val() == '2') {
                 $('#DonationKaro2').show();
                 $('#DonationKaro1').hide();
