@@ -21,9 +21,15 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css" integrity="sha512-mR/b5Y7FRsKqrYZou7uysnOdCIJib/7r5QeJMFvLNHNhtye3xJp1TdJVPLtetkukFn227nKpXD9OjUc09lx97Q==" crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+
+
+
 
 <div class="donation-section">
-
 
     <!-- heading -->
     <div class="img1">
@@ -171,12 +177,12 @@
                     </div>
                     <div class="rbstyle">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="optradio" id="countrybelong1" value="1"
+                            <input class="form-check-input" type="radio" name="optradio" id="countrybelong1" value="Indian"
                                 checked>
                             <label class="form-check-label" for="countrybelong1"><strong>Indian</strong></label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="optradio" id="countrybelong2" value="2">
+                            <input class="form-check-input" type="radio" name="optradio" id="countrybelong2" value="Other Country">
                             <label class="form-check-label" for="countrybelong2"><strong>Other Country</strong></label>
                         </div>
 
@@ -343,8 +349,9 @@
                                         <div class="eduamnt">
                                             <span>Other Amount:</span>
                                         </div>
-                                        <input type="number" class="form-control eduamnt2" name="number" id="number"
-                                            size="20" maxlength="12" placeholder="Enter number only">
+                                        <input type="text" inputmode="numeric" class="form-control eduamnt2"
+                                            name="number" id="number" size="20" maxlength="12"
+                                            placeholder="Enter number only">
                                     </label>
                                 </div>
                             </div>
@@ -372,15 +379,15 @@
                                         feeding of <span>3 child for 1 year </span>)</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="Feedachild" id="Feedachild1"
+                                    <input class="form-check-input mt-3" type="radio" name="Feedachild" id="Feedachild1"
                                         value="3.2">
                                     <label class="form-check-label" for="Feedachild"><span>
                                             <strong>Rs. 12,000/-</strong> </span>(for
                                         feeding of <span>6 children for 1 year
                                         </span>)</label>
-                                </div>
+                                    </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="Feedachild" id="Feedachild1"
+                                    <input class="form-check-input mt-3" type="radio" name="Feedachild" id="Feedachild1"
                                         value="3.3">
                                     <label class="form-check-label" for="Feedachild"><span>
                                             <strong>Rs. 20,000/-</strong> </span>(for
@@ -395,8 +402,9 @@
                                         <div class="eduamnt">
                                             <span>Other amount:</span>
                                         </div>
-                                        <input type="number" class="form-control eduamnt2" name="number" id="number"
-                                            size="20" maxlength="12" placeholder="Enter number only">
+                                        <input type="text" inputmode="numeric" min="0" class="form-control eduamnt2"
+                                            name="number" id="number" size="20" maxlength="12"
+                                            placeholder="Enter number only">
                                     </label>
                                 </div>
                                 <div class="edu-foot">
@@ -439,16 +447,21 @@
                                     <label class="form-check-label" for="Clothedonate2"> <strong>Rs. 6,250/-
                                         </strong>(for the clothes of 25 children)</label>
                                 </div>
-                                <div class="form-check form-check-inline mt-3" style="display: flex; flex-direction: row;margin-bottom: 1rem; ">
+                                <div class="form-check form-check-inline mt-3"
+                                    style="display: flex; flex-direction: row;margin-bottom: 1rem; ">
                                     <input class="form-check-input mt-3" type="radio" name="Clothedonate"
                                         id="Clothedonate3" value="4.3">
-                                    <label class="form-check-label clthitem1" for="Clothedonate3"> <strong> Other Items :</strong></label>
-                                    <div class="category" style="display: flex; flex-direction: row; margin-top: 0.5rem;height: 3rem;" >
-                                        <label class="form-check-label" style="margin-right: 3rem;    font-size: large; font-weight: 700;">
+                                    <label class="form-check-label clthitem1" for="Clothedonate3"> <strong> Other Items
+                                            :</strong></label>
+                                    <div class="category"
+                                        style="display: flex; flex-direction: row; margin-top: 0.5rem;height: 3rem;">
+                                        <label class="form-check-label"
+                                            style="margin-right: 3rem;    font-size: large; font-weight: 700;">
                                             <input type="number" class="form-control" name="number" id="number"
                                                 size="20" maxlength="12" placeholder="No. of Items">
                                         </label>
-                                        <select class="form-select" aria-label="Default select example" style="height: 2.4rem;font-size: large;                        font-weight: 700;">
+                                        <select class="form-select" multiple="multiple" aria-label="Default select example"
+                                            style="height: 2.4rem;font-size: large;                        font-weight: 700;">
                                             <option selected>Items you can donate</option>
                                             <option value="1">T-shirt/Shirt</option>
                                             <option value="2">Pants/Jeans</option>
@@ -456,7 +469,7 @@
                                             <option value="4">Blanket(Kambal)</option>
                                             <option value="5">Shoes/Sandals</option>
                                         </select>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="form-check form-check-inline">
@@ -466,8 +479,8 @@
                                         <div class="eduamnt">
                                             <span>Other amount:</span>
                                         </div>
-                                        <input type="number" class="form-control eduamnt2" name="number" id="number"
-                                            size="20" maxlength="12">
+                                        <input type="text" inputmode="numeric" min="0" class="form-control eduamnt2"
+                                            name="number" id="number" size="20" maxlength="12">
                                     </label>
                                 </div>
                                 <div class="edu-foot">
@@ -517,8 +530,8 @@
                                         <div class="eduamnt">
                                             <span>Other amount:</span>
                                         </div>
-                                        <input type="number" class="form-control eduamnt2" name="number" id="number"
-                                            size="20" maxlength="12">
+                                        <input type="text" inputmode="numeric" min="0" class="form-control eduamnt2"
+                                            name="number" id="number" size="20" maxlength="12">
                                     </label>
                                 </div>
                                 <div class="sponsr justify-content-md-center d-md-flex" style="margin-top: 2rem;">
@@ -571,8 +584,9 @@
                                         <div class="eduamnt">
                                             <span>Other amount:</span>
                                         </div>
-                                        <input type="number" class="form-control eduamnt2" name="number" id="number"
-                                            size="20" maxlength="12" placeholder="Enter numbers only">
+                                        <input type="text" inputmode="numeric" class="form-control eduamnt2"
+                                            name="number" id="number" size="20" maxlength="12"
+                                            placeholder="Enter numbers only">
                                     </label>
                                     <div class="edu-foot">
                                         <h3>“Services to others is the rent you pay for your room here on Earth” <p
@@ -761,7 +775,6 @@
         document.getElementById("rupees").style.display = "none";
         document.getElementById("dollar").style.display = "flex";
     }
-
     //     $(function() {
     //     $('input[name="type"]').on('click', function() {
     //         if ($(this).val() == 'Experienced') {
@@ -782,7 +795,6 @@
                 $('#DonationKaro5').hide();
                 $('#DonationKaro6').hide();
             }
-
             else if ($(this).val() == '2') {
                 $('#DonationKaro2').show();
                 $('#DonationKaro1').hide();
@@ -825,5 +837,4 @@
             }
         });
     });
-
 </script>
