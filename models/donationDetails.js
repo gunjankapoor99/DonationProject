@@ -2,12 +2,12 @@ const mongoose = require('mongoose');
 const path = require('path');
 
 const donationDetailsSchema = new mongoose.Schema({
-    nationality: {
+    optradio: {
         type: String,
         required: true,
         possibleValues: ['Indian','Other Country']
     },
-    donateItem: {
+    type: {
         type: String,
         required: true,
         possibleValues: ['Money', 'Meals', 'Clothes','Education', 'Health Care', 'Disaster Relief']
