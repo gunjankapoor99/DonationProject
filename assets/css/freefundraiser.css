@@ -1,0 +1,111 @@
+
+.header {
+    text-align: center;
+    padding: 42px 1px;
+    margin: 1px 0px;
+}
+
+.header h1 {
+    text-align: center;
+    color: black;
+    margin: 0px ppx 9px;
+    font-size: 28px;
+}
+
+.header p {
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fundingContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(162, 167, 156);
+    max-height: 309px;
+    width: 520px;
+    height: 309px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);   
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    padding: 21px 273px; 
+    position: relative; 
+    justify-content: space-evenly;
+}
+
+.cardHeader {
+    background-color: transparent !important;
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    color: lightseagreen;
+    width: 100%;
+    margin-top: 20px;
+}
+.cardHeader .redColor{
+    color:#ff0000 ;
+}
+.mid{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn-primary{
+    text-decoration: none;
+    padding: 7px 40%;
+    margin: 2px -205px;
+    background-color: rgb(9, 85, 81) !important;
+    border-radius: 5px;
+    /* padding: 13px 158px; */
+    /* position: absolute; */
+}
+.cardBody p{
+    color: #999;
+    font-size: 18px;
+    margin-bottom: 22px;
+    min-height: 3.5em;
+    position: absolute;
+    justify-content: center;
+    /* text-align: center; */
+}
+.cardBody{
+    position: absolute;
+    margin-top: 18%;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    /* padding: 50px 1px; */
+    /* margin: 31px 3px; */
+    /* display: block; */
+}
+.cardBody h3{
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center; 
+} 
+
+.cardFooter{
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
+    width: 80%;
+}
+
+.cardFooter a{
+    background-color: #ed3b3bed !important;
+}
+
+.cardFooter a:hover{
+    background-color: #e41515ed !important;
+    transition: 0.4s;
+}

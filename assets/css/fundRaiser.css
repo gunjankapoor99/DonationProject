@@ -1,6 +1,10 @@
 .head{
     background-color: rgb(112 108 108 / 42%);
 }
+
+.head::before{
+    background-image: url("http://www.w3.org/2000/svg");
+}
 .fundraise-header{
     display: flex;
     padding: 25px 25px 0px 25px;
