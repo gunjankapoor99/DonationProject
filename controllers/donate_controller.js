@@ -16,18 +16,22 @@ module.exports.proceed = function(req, res){
 };
 
 module.exports.donationDetails = async function(req,res){
-    
+        let donationDetail;
         try{
-            DonationDetails.create(req.body, function(err, donationDetail){
-                donationDetail.optradio = req.body.optradio;
-                donationDetail.type = req.body.type;
+            donationDetail = DonationDetails({
+                nationality: req.body.Nationality,
+                donationType: req.body.DonationType
 
-                
-                donationDetail.save();
+            });
+            await donationDetail.save();
+            // DonationDetails.create(req.body, function(err, donationDetail){
+            //     nationality = req.body.Nationality;
+            //     donationType = req.body.DonationType;           
+            //     donationDetail.save();
 
-                return res.redirect('back');
+            //     return res.redirect('back');
         
-            })
+            // })
     }catch(err){
             console.log('error', err);
             return res.redirect('back');

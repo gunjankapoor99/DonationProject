@@ -138,25 +138,18 @@
 
             <div class="person-belong " style="display: flex;">
                 <div class="col-12 col-md-4 offset-md-1">
-                    <h3>Nationality </h3>
+                    <h3>Nationality</h3>
                 </div>
                 <div class="rbstyle">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="optradio" id="countrybelong1" value="Indian"
-                            checked>
+                        <input class="form-check-input" type="radio" name="Nationality" id="countrybelong1"
+                            value="Indian" checked>
                         <label class="form-check-label" for="countrybelong1"><strong>Indian</strong></label>
                     </div>
-                    <div class="rbstyle">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="Nationality" id="countrybelong1"
-                                value="Indian" checked>
-                            <label class="form-check-label" for="countrybelong1"><strong>Indian</strong></label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="Nationality" id="countrybelong2"
-                                value="Other Countries">
-                            <label class="form-check-label" for="countrybelong2"><strong>Other Country</strong></label>
-                        </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Nationality" id="countrybelong2"
+                            value="Other Countries">
+                        <label class="form-check-label" for="countrybelong2"><strong>Other Country</strong></label>
                     </div>
                 </div>
             </div>
@@ -168,89 +161,47 @@
 
                 <div class="darea">
                     <div class="form-check form-check-inline dnt-menu">
-                        <input class="form-check-input" type="radio" name="type" value="1" checked>
+                        <input class="form-check-input" type="radio" name="DoantionType" value="Money" checked>
                         <label class="form-check-label"><strong> Money</strong></label>
                     </div>
 
-                    <div class="darea">
-                        <div class="form-check form-check-inline dnt-menu">
-                            <input class="form-check-input" type="radio" name="DoantionType" value="Money" checked>
-                            <label class="form-check-label"><strong> Money</strong></label>
-                        </div>
+                    <div class="form-check form-check-inline dnt-menu">
+                        <input class="form-check-input" type="radio" name="DonationType" value="Education">
+                        <label class="form-check-label"><strong> Education</strong>
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline dnt-menu">
+                        <input class="form-check-input" type="radio" name="DonationType" value="Meals">
+                        <label class="form-check-label"> <strong> Meals</strong></label>
+                    </div>
+                    <div class="form-check form-check-inline dnt-menu">
+                        <input class="form-check-input" type="radio" name="DonationType" value="Clothes">
+                        <label class="form-check-label"> <strong> Clothes</strong></label>
+                    </div>
+                    <div class="form-check form-check-inline dnt-menu">
+                        <input class="form-check-input" type="radio" name="DonationType" value="Health Care">
+                        <label class="form-check-label"><strong> Health Care</strong></label>
+                    </div>
+                    <div class="form-check form-check-inline dnt-menu">
+                        <input class="form-check-input" type="radio" name="DonationType" value="Disaster Relief">
+                        <label class="form-check-label"><strong> Disaster Relief</strong></label>
+                    </div>
 
-                        <div class="form-check form-check-inline dnt-menu">
-                            <input class="form-check-input" type="radio" name="DoantionType" value="Education">
-                            <label class="form-check-label"><strong> Education</strong>
-                            </label>
-                        </div>
-                        <div class="form-check form-check-inline dnt-menu">
-                            <input class="form-check-input" type="radio" name="DoantionType" value="Meals">
-                            <label class="form-check-label"> <strong> Meals</strong></label>
-                        </div>
-                        <div class="form-check form-check-inline dnt-menu">
-                            <input class="form-check-input" type="radio" name="DoantionType" value="Clothes">
-                            <label class="form-check-label"> <strong> Clothes</strong></label>
-                        </div>
-                        <div class="form-check form-check-inline dnt-menu">
-                            <input class="form-check-input" type="radio" name="DoantionType" value="Health Care">
-                            <label class="form-check-label"><strong> Health Care</strong></label>
-                        </div>
-                        <div class="form-check form-check-inline dnt-menu">
-                            <input class="form-check-input" type="radio" name="DoantionType" value="Disaster Relief">
-                            <label class="form-check-label"><strong> Disaster Relief</strong></label>
-                        </div>
-
-                        <div id="DonationKaro1" class="dntn">
-                            <div class="currency-belong " style="display: flex;">
-                                <div class="col-12 col-md-4 offset-md-1">
-                                    <h3>Currency </h3>
-                                </div>
-                                <div class="cbstyle">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="MoneyType"
-                                            id="countrybelong1" value="Rupees" onclick="fn1()">
-                                        <label class="form-check-label"
-                                            for="countrybelong1"><strong>Rupees</strong></label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="MoneyType"
-                                            id="countrybelong2" value="Dollar" onclick="fn2()">
-                                        <label class="form-check-label"
-                                            for="countrybelong2"><strong>Dollar</strong></label>
-                                    </div>
-                                </div>
+                    <div id="DonationKaro1" class="dntn">
+                        <div class="currency-belong " style="display: flex;">
+                            <div class="col-12 col-md-4 offset-md-1">
+                                <h3>Currency </h3>
                             </div>
                             <div class="cbstyle">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="money" id="countrybelong1"
-                                        value="Rupees" onclick="fn1()" checked>
+                                    <input class="form-check-input" type="radio" name="MoneyType" id="countrybelong1"
+                                        value="Rupees" onclick="fn1()">
                                     <label class="form-check-label" for="countrybelong1"><strong>Rupees</strong></label>
                                 </div>
-                                <div class="amount-area">
-                                    <div class="amt">
-                                        <div class="amount-rupee">
-                                            <input type="radio" name="AmountDonated" class="btn-check"
-                                                id="btn-check-2-outlined" value="Rs.3000" unchecked autocomplete="off">
-                                            <label class="btn btn-outline-secondary"
-                                                for="btn-check-2-outlined">Rs.3000</label>
-
-                                            <input type="radio" name="AmountDonated" class="btn-check"
-                                                id="btn-check-3-outlined" value="Rs.5000" unchecked autocomplete="off">
-                                            <label class="btn btn-outline-secondary"
-                                                for="btn-check-3-outlined">Rs.5000</label>
-
-                                            <input type="radio" name="AmountDonated" class="btn-check"
-                                                id="btn-check-4-outlined" value="Rs.10000" unchecked autocomplete="off">
-                                            <label class="btn btn-outline-secondary"
-                                                for="btn-check-4-outlined">Rs.10000</label>
-                                        </div>
-
-                                        <div class="mb-2 my-3">
-                                            <input type="text" inputmode="numeric" name="AmountDonated"
-                                                class="form-control" min="0" autocomplete="off"
-                                                id="exampleFormControlInput1" placeholder="Enter Your Amount">
-                                        </div>
-                                    </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="MoneyType" id="countrybelong2"
+                                        value="Dollar" onclick="fn2()">
+                                    <label class="form-check-label" for="countrybelong2"><strong>Dollar</strong></label>
                                 </div>
                             </div>
                         </div>
@@ -263,24 +214,24 @@
                                 <div class="amt">
                                     <div class="amount-rupee">
                                         <input type="radio" name="AmountDonated" class="btn-check"
-                                            id="btn-check-12-outlined" value="$500" unchecked autocomplete="off">
+                                            id="btn-check-2-outlined" value="Rs.3000" unchecked autocomplete="off">
                                         <label class="btn btn-outline-secondary"
                                             for="btn-check-2-outlined">Rs.3000</label>
 
                                         <input type="radio" name="AmountDonated" class="btn-check"
-                                            id="btn-check-13-outlined" value="$1000" unchecked autocomplete="off">
+                                            id="btn-check-3-outlined" value="Rs.5000" unchecked autocomplete="off">
                                         <label class="btn btn-outline-secondary"
                                             for="btn-check-3-outlined">Rs.5000</label>
 
                                         <input type="radio" name="AmountDonated" class="btn-check"
-                                            id="btn-check-14-outlined" value="$1500" unchecked autocomplete="off">
+                                            id="btn-check-4-outlined" value="Rs.10000" unchecked autocomplete="off">
                                         <label class="btn btn-outline-secondary"
                                             for="btn-check-4-outlined">Rs.10000</label>
                                     </div>
 
                                     <div class="mb-2 my-3">
                                         <input type="text" inputmode="numeric" name="AmountDonated" class="form-control"
-                                            min="0" autocomplete="off" id="exampleFormControlInput2"
+                                            min="0" autocomplete="off" id="exampleFormControlInput1"
                                             placeholder="Enter Your Amount">
                                     </div>
                                 </div>
@@ -293,45 +244,56 @@
                             </div>
                             <div class="amount-area">
                                 <div class="amount-rupee">
-                                    <input type="radio" name="amnt2" class="btn-check" id="btn-check-12-outlined"
-                                        unchecked autocomplete="off">
+                                    <input type="radio" name="AmountDonated" class="btn-check"
+                                        id="btn-check-12-outlined" value="$500" unchecked autocomplete="off">
                                     <label class="btn btn-outline-secondary" for="btn-check-12-outlined">$500</label>
 
-                                    <input type="radio" name="amnt2" class="btn-check" id="btn-check-13-outlined"
-                                        unchecked autocomplete="off">
+                                    <input type="radio" name="AmountDonated" class="btn-check"
+                                        id="btn-check-13-outlined" value="$1000" unchecked autocomplete="off">
                                     <label class="btn btn-outline-secondary" for="btn-check-13-outlined">$1000</label>
 
-                                    <h4>
-                                        <strong> Yes, I want to support a child!!!</strong>
-                                    </h4>
-                                    <div class="donateforeducation"
-                                        style="margin-left: 4rem; line-height: 3rem; font-size: larger;">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input mt-3" type="radio" name="AmountDonated"
-                                                id="Educateachild1" value="Rs.8,000">
-                                            <label class="form-check-label" for="Educateachild1"><span>
-                                                    <strong>Rs. 8,000/- </strong> </span>(for the education of <span>1
-                                                    child for
-                                                    1 year</span> )</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input mt-3" type="radio" name="AmountDonated"
-                                                id="Educateachild2" value="Rs.24,000">
-                                            <label class="form-check-label" for="Educateachild2"><span><strong>Rs.
-                                                        24,000/-</strong> </span> (for the
-                                                education of <span> 3 children for 1 year
-                                                </span>)</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input mt-3" type="radio" name="AmountDonated"
-                                                id="Educateachild3" value="Rs.40,000">
-                                            <label class="form-check-label" for="Educateachild2"><span>
-                                                    <strong>Rs. 40,000/- </strong> </span>(for the education of<span> 5
-                                                    children
-                                                    for 1 year </span>)</label>
-                                        </div>
-                                    </div>
+                                    <input type="radio" name="AmountDonated" class="btn-check"
+                                        id="btn-check-14-outlined" value="$1500" unchecked autocomplete="off">
+                                    <label class="btn btn-outline-secondary" for="btn-check-14-outlined">$1500</label>
                                 </div>
+                                <div class="mb-2 my-3">
+                                    <input type="text" inputmode="numeric" name="AmountDonated" class="form-control"
+                                        min="0" autocomplete="off" id="exampleFormControlInput2"
+                                        placeholder="Enter Your Amount">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="DonationKaro2" class="dntn" style="display: none">
+
+
+                        <h4>
+                            <strong> Yes, I want to support a child!!!</strong>
+                        </h4>
+                        <div class="donateforeducation"
+                            style="margin-left: 4rem; line-height: 3rem; font-size: larger;">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input mt-3" type="radio" name="AmountDonated"
+                                    id="Educateachild1" value="Rs.8,000">
+                                <label class="form-check-label" for="Educateachild1"><span>
+                                        <strong>Rs. 8,000/- </strong> </span>(for the education of <span>1 child for
+                                        1 year</span> )</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input mt-3" type="radio" name="AmountDonated"
+                                    id="Educateachild2" value="Rs.24,000">
+                                <label class="form-check-label" for="Educateachild2"><span><strong>Rs.
+                                            24,000/-</strong> </span> (for the
+                                    education of <span> 3 children for 1 year
+                                    </span>)</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input mt-3" type="radio" name="AmountDonated"
+                                    id="Educateachild3" value="Rs.40,000">
+                                <label class="form-check-label" for="Educateachild2"><span>
+                                        <strong>Rs. 40,000/- </strong> </span>(for the education of<span> 5 children
+                                        for 1 year </span>)</label>
                             </div>
 
                             <div class="form-check form-check-inline">
@@ -348,9 +310,9 @@
                             </div>
                         </div>
                         <div class="edu-foot">
-                            <h3>“If you can't feed a hundred people , then feed just one.” <p
+                            <h3>“Education is the most powerful weapon which you can use to change the world” <p
                                     style="color: #8d0a0ad1; text-align: right;"> <strong style="margin-right: 3rem;"> –
-                                        Mother Teresa</strong></p>
+                                        Nelson Mandela</strong></p>
                             </h3>
                         </div>
                     </div>
@@ -399,15 +361,13 @@
                                         autocomplete="off" name="OtherAmountDonated" id="number" size="20"
                                         maxlength="12" placeholder="Enter number only">
                                 </label>
-                                <select class="form-select" id="selectClothes" aria-label="Default select example"
-                                    style="height: 2.4rem;font-size: large;font-weight: 700;">
-                                    <option value="1">T-shirt/Shirt</option>
-                                    <option value="2">Pants/Jeans</option>
-                                    <option value="3">Sweaters/Jackets</option>
-                                    <option value="4">Blanket(Kambal)</option>
-                                    <option value="5">Shoes/Sandals</option>
-                                </select>
-
+                            </div>
+                            <div class="edu-foot">
+                                <h3>“If you can't feed a hundred people , then feed just one.” <p
+                                        style="color: #8d0a0ad1; text-align: right;"> <strong
+                                            style="margin-right: 3rem;"> –
+                                            Mother Teresa</strong></p>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -570,24 +530,14 @@
                                                 style="margin-right: 3rem;"> – Muhammad Ali</strong></p>
                                     </h3>
                                 </div>
-                                <input type="text" inputmode="numeric" class="form-control eduamnt2" name="number"
-                                    id="number" size="20" maxlength="12" placeholder="Enter numbers only">
-                                </label>
-                                <div class="edu-foot">
-                                    <h3>“Services to others is the rent you pay for your room here on Earth” <p
-                                            style="color: #8d0a0ad1; text-align: right;"> <strong
-                                                style="margin-right: 3rem;"> – Muhammad Ali</strong></p>
-                                    </h3>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container submit-button  btn-lg active d-grid gap-2 d-md-flex justify-content-md-center">
-                <button type="submit" value="Proceed" class="btn btn-danger text-center " role="button"
-                    aria-pressed="true"><a href="/donate/proceed"
-                        style="color: white; text-decoration: none;">Proceed</a></button>
+                <input type="submit" value="Proceed" class="btn btn-danger text-center " role="button"
+                    aria-pressed="true"></input>
             </div>
         </form>
     </div>
@@ -746,8 +696,6 @@
     //         }
     //     });
     // });
-
-
     $(function () {
         $('input[name="DoantionType"]').on('click', function () {
             if ($(this).val() == 'Money') {
@@ -804,7 +752,6 @@
     // document.getElementsByClassName('selectbtn'){
 
     // }
-
     //     $(function() {
 
     //     $('selectClothes').multiselect({
@@ -813,7 +760,6 @@
     //     });
 
     // });
-
     document.getElementsByName('optradio').forEach(radio => {
         if (radio.checked) {
             console.log(radio.value);
