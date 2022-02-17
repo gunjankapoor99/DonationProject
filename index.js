@@ -1,5 +1,7 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
+const dotenv = require('dotenv');
+dotenv.config();
 const app = express();
 const port = 8000;
 
@@ -54,9 +56,9 @@ app.use(passport.setAuthenticatedUser);
 
 app.use('/', require('./routes'));
 
-app.listen(port, function(err){
+app.listen(process.env.PORT, function(err){
     if(err){
         console.log(`Error in running the server ${err}`);
     }
-    console.log(`Listening on port ${port}`);
+    console.log(`Listening on port ${process.env.PORT}`);
 });
