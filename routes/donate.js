@@ -4,6 +4,7 @@ const passport = require('passport');
 
 const donateController = require('../controllers/donate_controller');
 
-router.post('/donationDetails',donateController.donationDetails);
+router.get('/proceed', donateController.proceed);
+router.post('/donationDetails', donateController.donationDetails);
 
 module.exports = router;

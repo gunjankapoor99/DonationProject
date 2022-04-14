@@ -1,0 +1,10 @@
+.modal-body div button {
+    width: 100%;
+    padding: 1rem !important;
+    border: 0.5px solid rgb(230, 229, 229);
+}
+
+.modal-body div button:hover {
+    border: 0.5px solid rgb(252, 141, 141);
+    background-color: rgb(252, 241, 241);
+}

@@ -7,9 +7,8 @@ const donationDetailsSchema = new mongoose.Schema({
         required: true,
         possibleValues: ['Indian','Other Country']
     },
-    donateItem: {
+    donationType: {
         type: String,
-        required: true,
         possibleValues: ['Money', 'Meals', 'Clothes','Education', 'Health Care', 'Disaster Relief']
     }
 }, {
