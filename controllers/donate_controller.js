@@ -13,4 +13,5 @@ module.exports.donationDetails = async  function(req,res){
     console.log(req.body);
     this.nationality = req.body.nationality;
     this.donateItem = req.body.donateItem;
+  /*  console.log(req.body.AmountDonated); */
 };
