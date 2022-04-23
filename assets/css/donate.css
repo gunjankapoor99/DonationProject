@@ -23,6 +23,7 @@
 .panel{
     display: flex;
     flex-direction: row;
+    margin: 0px 3rem;
 }
 .left-panel{
     width: 200rem;
@@ -61,6 +62,12 @@
     margin-right: 2rem;
     padding: 2rem 1.5rem 1.5rem 0rem;
 }
+.card-title{
+    color: rgb(203 16 16);
+    text-align: center;
+    margin-bottom: 3rem !important; 
+    text-decoration: underline;
+}
 .person-belong {
    margin-bottom: 3rem;
 }
@@ -72,6 +79,7 @@
     justify-content: space-between;
     font-size: larger;
     font-weight: 500;
+    margin-left: -1.5rem;
 }
 
 .donation-area{
@@ -80,10 +88,11 @@
 .darea{
     font-size: larger;
     font-weight: 500;
+    margin-left: -1.5rem;
 }
 .dntn{
-    margin-left: -390px;
-    margin-top: 50px;
+    margin-left: -29rem;
+    margin-top: 3.5rem;
     display: flex;
     flex-direction: column;
     line-height: 150%;
@@ -98,11 +107,12 @@
 .cbstyle{
     display: flex;
     flex-direction: row;
-    width: 200px;
+    width: 18rem;
     align-items: center;
     justify-content: space-between;
     font-size: larger;
     font-weight: 500;
+    margin-left: -1.5rem;
 }
 .amount-area{
    display: flex;
@@ -112,6 +122,7 @@
 .amt{
     display: flex;
     flex-direction: column;
+    margin-left: -1.5rem;
 }
 .amount-rupee{
     display: flex;
