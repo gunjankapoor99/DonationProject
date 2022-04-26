@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+
+
 .heading{   
-    width: 80rem;
-    margin: 2rem 8rem;
+    text-align: center;
+    width: 77rem;
+    margin: 2rem 4rem;
 }
 .heading h1{
     text-align: center;
+    font-family:'Courier New', Courier, monospace;
 }
 .heading p{
     font-size: medium;
