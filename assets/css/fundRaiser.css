@@ -1,130 +1,5 @@
-/* .head{
-    background-color: rgb(112 108 108 / 42%);
-}
-
-.head::before{
-    background-image: url("http://www.w3.org/2000/svg");
-}
-.fundraise-header{
-    display: flex;
-    padding: 25px 25px 0px 25px;
-    margin-left: 120px;
-    margin-right: 120px;
-    
-}
-
-.header-img img{
-    border: 20px solid #f4eeee;
-    height: 473px;
-    width: 473px;
-    border-radius: 50%;
-}
-
-.header-text{
-    margin: 100px;
-}
-
-.fundraiser-details{
-    display: flex;
-}
-
-.fundraiser-details-content{
-    margin-right: 30px;
-}
-
-.verti-line{
-    width: 1px;
-    margin: 0 20px;
-    background-color: #020202;
-}
-.fundraiser-details-content h3{
-    color: #ed3b3bed;
-}
-
-.fundraise-btn{
-    margin-top: 50px;
-}
-
-.fundraise-btn a{
-    text-decoration: none;
-    color: white;
-    background-color: #ee4949;
-    padding: 15px 80px;
-    font-size: 1.3rem;
-    border-radius: 5px;
-}
-.fundraise-btn a:hover{
-    color: white;
-    background-color: #e41515ed;
-}
 
 
-.scroll-section {
-    max-height: 100px;
-    overflow-y: auto;
-  }
-
-
-   */
-
-.home {
-    background: url(https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/152000/152860/image/5e07289514caa.jpeg) no-repeat top center;
-    background-size: cover;
-    position: relative;
-    padding-top: 300px;
-    width: 100%;
-}
-
-.fix {
-    overflow: hidden;
-}
-
-.overlay {
-    background-color: rgb(41 39 34 / 59%);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.main_home:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-bottom: 140px solid #f5f5f5;
-    border-right: 690px solid transparent;
-}
-
-.main_home:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-bottom: 140px solid #f5f5f5;
-    border-left: 690px solid transparent;
-}
-
-img {
-    max-width: 100%;
-}
 
 .slid_item{
     display: flex;
@@ -150,4 +25,311 @@ img {
     color: white;
     background-color: #e41515ed;
     transition: 0.5s;
+}
+
+.card{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    border-radius: 10px !important;
+}
+
+.card:hover{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s
+   cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.slider1-heading{
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.slider1{
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+}
+
+.slider1-btn{
+    background-color: #ee4949 !important;
+    border: #ee4949 !important;
+}
+
+.progress{
+  margin: 10px 0px;
+}
+
+.cont1{
+  background-color: #d4d6df;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%); */
+    background-image: url("https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/152000/152860/image/5e07289514caa.jpeg") ;
+    background-size: cover;
+    padding: 0;
+  }
+
+  .text-white{
+    font-size: 4rem;
+  }
+
+  .overlay {
+    background-color: rgb(41 39 34 / 59%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+  #hero .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    padding-top: 60px;
+  }
+  #hero h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .help1{
+    color: #ee4949;
+    border: 1px white;
+}
+  #hero p {
+    width: 80%;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    margin: 0 auto 30px auto;
+    color: #fff;
+  }
+
+  .carousel-container p{
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  #hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    background-color: #ee4949;
+    padding: 16px 150px;
+    border-radius: 10px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid #ee4949;
+    text-decoration: none;
+  }
+  #hero .btn-get-started:hover {
+    background-color: #e41515ed;
+    color: #fff;
+    border-color: #e41515ed ;
+    text-decoration: none;
+  }
+  @media (min-width: 1024px) {
+    #hero p {
+      width: 60%;
+    }
+    #hero .carousel-control-prev, #hero .carousel-control-next {
+      width: 5%;
+    }
+  }
+  @media (max-width: 768px) {
+    #hero .carousel-container {
+      height: 90vh;
+    }
+    #hero h2 {
+      font-size: 28px;
+    }
+  }
+  
+  .hero-waves {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+  }
+  
+  .wave1 use {
+    -webkit-animation: move-forever1 10s linear infinite;
+    animation: move-forever1 10s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  .wave2 use {
+    -webkit-animation: move-forever2 8s linear infinite;
+    animation: move-forever2 8s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  .wave3 use {
+    -webkit-animation: move-forever3 6s linear infinite;
+    animation: move-forever3 6s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  @-webkit-keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  @-webkit-keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  @-webkit-keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+
+.features{
+  margin-top: 40px !important;
+}
+.features .nav-tabs {
+  border: 0;
+}
+.features-content h1{
+  text-align: center;
+}
+
+.features-content p{
+  text-align: center !important;
+  margin: 0px 20rem !important;
+}
+
+.features .nav-link {
+  border: 1px solid #ee4949 !important;
+  padding: 15px;
+  transition: 0.3s !important;
+  color: #111010;
+  border-radius: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #ee4949 !important; */
+}
+
+.features .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+.features .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.features .nav-link:hover {
+  color: #ee4949;
+}
+.features .nav-link.active {
+  background: #ee4949 !important;
+  color: #fff !important;
+  border-color: #ee4949 !important;
+}
+@media (max-width: 768px) {
+  .features .nav-link i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+}
+@media (max-width: 575px) {
+  .features .nav-link {
+    padding: 15px;
+  }
+  .features .nav-link i {
+    font-size: 24px;
+  }
+}
+.features .tab-content {
+  margin-top: 30px;
+}
+.features .tab-pane h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.features .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+.features .tab-pane ul li {
+  padding-bottom: 10px;
+}
+.features .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ef6603;
+}
+.features .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+.nav-item {
+  margin: 2px solid black !important;
 }

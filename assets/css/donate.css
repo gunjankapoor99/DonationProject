@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@500&display=swap');
+
 .img1{
     text-align: center;
 }
@@ -67,6 +70,7 @@
     text-align: center;
     margin-bottom: 3rem !important; 
     text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
 }
 .person-belong {
    margin-bottom: 3rem;
@@ -94,12 +98,22 @@
     margin-left: -29rem;
     margin-top: 3.5rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     line-height: 150%;
+}
+.donate-type-style{
+    /* margin-left: 4rem; */
+     line-height: 3rem; 
+     font-size: larger; 
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+    margin: auto;
 }
 .dnt-menu{
     margin-right: 4rem !important;
     margin-bottom: 1rem !important;
+    width: 6rem !important;
 }
 .currency-belong{
     margin-bottom: 3rem;
