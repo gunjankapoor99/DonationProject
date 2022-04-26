@@ -79,7 +79,7 @@
                 <!-- <div class="donate-item-section"> -->
 
                 <div class="col-12 col-md-4 offset-md-1">
-                    <h3> You can donate </h3>
+                    <h3 style="font-family: 'Red Hat Display', sans-serif;"> You can donate </h3>
                 </div>
 
                 <div class="darea">
@@ -116,7 +116,7 @@
                     <div id="DonationKaro1" class="dntn">
                         <div class="currency-belong " style="display: flex;">
                             <div class="col-12 col-md-4 offset-md-1">
-                                <h3>Currency </h3>
+                                <h3 style="font-family: 'Red Hat Display', sans-serif;">Currency </h3>
                             </div>
                             <div class="cbstyle">
                                 <div class="form-check form-check-inline">
@@ -134,11 +134,12 @@
 
                         <div class="amount " id="rupees" style="display: flex;">
                             <div class="col-12 col-md-4 offset-md-1">
-                                <h3>Amount </h3>
+                                <h3 style="font-family: 'Red Hat Display', sans-serif;">Amount </h3>
                             </div>
                             <div class="amount-area">
                                 <div class="amt">
                                     <div class="amount-rupee">
+<<<<<<< Updated upstream
                                         <input type="radio" name="AmountDonated" class="btn-check"
                                             id="btn-check-2-outlined" value="Rs.3000" unchecked autocomplete="on">
                                         <label class="btn btn-outline-secondary"
@@ -153,52 +154,83 @@
                                             id="btn-check-4-outlined" value="Rs.10000" unchecked autocomplete="on">
                                         <label class="btn btn-outline-secondary"
                                             for="btn-check-4-outlined">Rs.10000</label>
+=======
+                                        
+                                            <input type="radio" name="AmountDonated" class="form-check-input rbtncheck amountselected"
+                                            id="donate-r-3000" value="Rs.3000" unchecked autocomplete="off">
+                                        <label class="form-check-label" style="margin-left: -1.2rem"
+                                            for="amount donated in rupees">Rs.3000</label>    
+
+                                        <input type="radio" name="AmountDonated" class="form-check-input rbtncheck amountselected"
+                                            id="donate-r-5000" value="Rs.5000" unchecked autocomplete="off">
+                                        <label class="form-check-label" style="margin-left: -1.2rem"
+                                            for="amount donated in rupees">Rs.5000</label>
+
+                                        <input type="radio" name="AmountDonated" class="form-check-input rbtncheck amountselected"
+                                            id="donate-r-10000" value="Rs.10000" unchecked autocomplete="off">
+                                        <label class="form-check-label" style="margin-left: -1.2rem"
+                                            for="amount donated in rupees">Rs.10000</label>
+>>>>>>> Stashed changes
                                     </div>
 
-                                    <!-- <div class="mb-2 my-3">
-                                    <input type="text" inputmode="numeric" name="AmountDonated" class="form-control"
-                                        min="0" autocomplete="off" id="exampleFormControlInput1"
-                                        placeholder="Enter Your Amount">
-                                </div> -->
-                                    <div class="mb-2 my-3">
-                                        <input type="text" inputmode="numeric" name="OtherAmountDonated"
-                                            class="form-control" min="0" autocomplete="off"
-                                            id="exampleFormControlInput1" placeholder="Enter Your Amount">
+                                    <div class="form-check form-check-inline" style="margin-top: 1.5rem">
+                                        <input class="form-check-input mt-3 rbtncheck btnselect btn2" type="radio" name="AmountDonated"
+                                            id="moneydonated1" onclick="checkrbtn()" value="">
+                                        <label class="form-check-label" for="moneydonated1" style="display: flex;">
+                                            <div class="moneyamnt">
+                                                <span>Enter Your Amount:</span>
+                                            </div>
+                                            <input type="text" inputmode="numeric" min="0" class="form-control moneyamnt2"
+                                                autocomplete="off" name="OtherAmountDonated" id="number" size="20"
+                                                maxlength="12" placeholder="Enter number only">
+                                        </label>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
 
                         <div class="amount " id="dollar" style="display: none;">
                             <div class="col-12 col-md-4 offset-md-1">
-                                <h3>Amount </h3>
+                                <h3 style="font-family: 'Red Hat Display', sans-serif;">Amount </h3>
                             </div>
                             <div class="amount-area">
-                                <div class="amount-rupee">
-                                    <input type="radio" name="AmountDonated" class="btn-check
-                                    rbtncheck" id="btn-check-12-outlined" value="$500" unchecked autocomplete="off">
-                                    <label class="btn btn-outline-secondary" for="btn-check-12-outlined">$500 </label>
+                                <div class="amt">
+                                    <div class="amount-rupee">
+                                        
+                                            <input type="radio" name="AmountDonated" class="form-check-input rbtncheck"
+                                            donate-r-3000lue="$500" unchecked autocomplete="off">
+                                        <label class="form-check-label" style="margin-left: -1.2rem"
+                                            for="amount donated in dollar">$500</label>    
 
-                                    <input type="radio" name="AmountDonated" class="btn-check 
-                                    rbtncheck" id="btn-check-13-outlined" value="$1000" unchecked autocomplete="off">
-                                    <label class="btn btn-outline-secondary" for="btn-check-13-outlined">$1000 </label>
+                                        <input type="radio" name="AmountDonated" class="form-check-input rbtncheck"
+                                            id="donate-d-1000" value="$1000" unchecked autocomplete="off">
+                                        <label class="form-check-label" style="margin-left: -1.2rem"
+                                            for="amount donated in rupees">$1000</label>
 
-                                    <input type="radio" name="AmountDonated" class="btn-check  rbtncheck"
-                                        id="btn-check-14-outlined" value="$1500" unchecked autocomplete="off">
-                                    <label class="btn btn-outline-secondary" for="btn-check-14-outlined">$1500 </label>
-                                </div>
-                                <!-- <div class="mb-2 my-3">
-                                <input type="text" inputmode="numeric" name="AmountDonated"
-                                    class="form-control  rbtncheck" min="0" autocomplete="off"
-                                    id="exampleFormControlInput2" placeholder="Enter Your Amount">
-                            </div> -->
-                                <div class="mb-2 my-3">
-                                    <input type="text" inputmode="numeric" name="OtherAmountDonated"
-                                        class="form-control  rbtncheck" min="0" autocomplete="off"
-                                        id="exampleFormControlInput2" placeholder="Enter Your Amount">
+                                        <input type="radio" name="AmountDonated" class="form-check-input rbtncheck amountselected"
+                                            id="donate-d-1500" value="$1500" unchecked autocomplete="off">
+                                        <label class="form-check-label" style="margin-left: -1.2rem"
+                                            for="amount donated in dollar">$1500</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline" style="margin-top: 1.5rem">
+                                        <input class="form-check-input mt-3 rbtncheck btnselect btn2" type="radio" name="AmountDonated"
+                                            id="moneydonated2" onclick="checkrbtn()" value="">
+                                        <label class="form-check-label" for="moneydonated2" style="display: flex;">
+                                            <div class="moneyamnt">
+                                                <span>Enter Your Amount:</span>
+                                            </div>
+                                            <input type="text" inputmode="numeric" min="0" class="form-control moneyamnt2"
+                                                autocomplete="off" name="OtherAmountDonated" id="number" size="20"
+                                                maxlength="12" placeholder="Enter number only">
+                                        </label>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                     <div id="DonationKaro2" class="dntn" style="display: none">
@@ -235,7 +267,7 @@
                             </div>
 
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input selectbtn mt-3 btn-2  rbtncheck" type="radio"
+                                <input class="form-check-input selectbtn mt-3 btn-2 btnselect rbtncheck" type="radio"
                                     name="AmountDonated" onclick="checkrbtn()" value="" id="Educateachild4">
                                 <label class="form-check-label" for="Educateachild2" style="display: flex;">
                                     <div class="eduamnt">
@@ -294,7 +326,7 @@
                             </div>
 
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input mt-3  rbtncheck btn2" type="radio" name="AmountDonated"
+                                <input class="form-check-input mt-3  rbtncheck btnselect btn2" type="radio" name="AmountDonated"
                                     id="Feedachild1" onclick="checkrbtn()" value="">
                                 <label class="form-check-label" for="Feedachild" style="display: flex;">
                                     <div class="eduamnt">
@@ -335,7 +367,7 @@
                             </div>
 
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input mt-3 rbtncheck" type="radio" name="AmountDonated"
+                                <input class="form-check-input mt-3 rbtncheck btnselect" type="radio" name="AmountDonated"
                                     id="Clothedonate4" value="">
                                 <label class="form-check-label" for="Clothedonate4" style="display: flex;">
                                     <div class="eduamnt">
@@ -343,17 +375,18 @@
                                     </div>
                                     <input type="text" inputmode="numeric" min="0" class="form-control eduamnt2"
                                         autocomplete="off" name="OtherAmountDonated" id="number" size="20"
-                                        maxlength="12">
+                                        maxlength="12" placeholder="Enter numbers only">
                                 </label>
                             </div>
 
-                            <div class="form-check form-check-inline mt-3 rbtncheck "
+                            <!-- <div class="form-check form-check-inline mt-3 rbtncheck "
                                 style="display: flex; flex-direction: row;margin-bottom: 1rem; ">
                                 <input class="form-check-input mt-3 btn2" type="radio" name="AmountDonated"
                                     onclick="checkrbtn()" id="Clothedonate3">
                                 <label class="form-check-label clthitem1" for="Clothedonate3"> <strong> Other Items
                                         :</strong></label>
-                                <!-- <div class="category"
+                                        // comment starts 
+                                 <div class="category"
                                     style="display: flex; flex-direction: row; margin-top: 0.5rem;height: 3rem;">
                                     <label class="form-check-label"
                                         style="margin-right: 3rem;    font-size: large; font-weight: 700;">
@@ -369,14 +402,14 @@
                                             <option  value="Blanket">Blanket(Kambal)</option>
                                             <option  value="Shoes/Sandals">Shoes/Sandals</option>
                                     </select> 
-                                </div> -->
+                                </div>  // comment ends
                                 <div class="category">
                                     <input type="text" min="0" class="form-control eduamnt2" autocomplete="off"
                                         name="otherItemsDonate" id="number" size="20" maxlength="12">
                                 </div>
 
 
-                            </div>
+                            </div> -->
                         </div>
                         <div class="edu-foot">
                             <h3>“All we need is to build human relations with our deeds. That's only thing that
@@ -422,7 +455,7 @@
                             </div>
 
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input mt-3 rbtncheck btn2" type="radio" value=""
+                                <input class="form-check-input mt-3 rbtncheck btn2 btnselect" type="radio" value=""
                                     name="AmountDonated" onclick="checkrbtn()" id="HealthCare5">
                                 <label class="form-check-label" for="HealthCare5" style="display: flex;">
                                     <div class="eduamnt">
@@ -430,7 +463,7 @@
                                     </div>
                                     <input type="text" inputmode="numeric" min="0" autocomplete="off"
                                         class="form-control eduamnt2" name="OtherAmountDonated" id="number" size="20"
-                                        maxlength="12">
+                                        maxlength="12"  placeholder="Enter numbers only">
                                 </label>
                             </div>
                             <div class="sponsr justify-content-md-center d-md-flex" style="margin-top: 2rem;">
@@ -470,7 +503,7 @@
                             </div>
 
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input mt-3 rbtncheck btn2" type="radio" value=""
+                                <input class="form-check-input mt-3 rbtncheck btn2 btnselect" type="radio" value=""
                                     name="AmountDonated" onclick="checkrbtn()" id="DisasterRelief4">
                                 <label class="form-check-label" for="DisasterRelief4" style="display: flex;">
                                     <div class="eduamnt">
@@ -493,13 +526,13 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="container submit-button  btn-lg active d-grid gap-2 d-md-flex justify-content-md-center" style="margin:-1rem;">
+            <div class="container submit-button  btn-lg active d-grid gap-2 d-md-flex justify-content-md-center" style="margin:-1rem;">
                 <input type="submit" value="Proceed" id="proceedbtn" class="btn btn-danger text-center " role="button"
-                    aria-pressed="true" disabled></input>
-            </div> -->
-            <div class="container submit-button  btn-lg active d-grid gap-2 d-md-flex justify-content-md-center">
-                <a class="btn btn-danger text-center" type="submit" href="donateProceed" role="button">Proceed</a>
+                    aria-pressed="true" disabled onsubmit="validatebtn()"></input>
             </div>
+            <!-- <div class="container submit-button  btn-lg active d-grid gap-2 d-md-flex justify-content-md-center">
+                <a class="btn btn-danger text-center" type="submit" href="donateProceed" role="button">Proceed</a>
+            </div> -->
         </form>
     </div>
 </div>
@@ -708,6 +741,7 @@
         }
     });
 
+
     var inputElems = document.getElementsByClassName("rbtncheck");
     for (var i = inputElems.length - 1; i >= 0; --i) {
         var elem = inputElems[i];
@@ -723,5 +757,14 @@
             document.getElementsByClassName('btn3').disabled = false;
         }
 
+    }
+    function validatebtn(){
+        if(document.getElementsByClassName('btnselect').checked){
+             if(document.getElementsByClassName('eduamnt2').value==0 || document.getElementsByClassName('eduamnt2').value==null || document.getElementsByClassName('moneyamnt2').value==0 || document.getElementsByClassName('moneyamnt2').value==null ){
+                document.getElementById("proceedbtn").setAttribute("disabled");
+                alert('Enter some amount for donation');
+
+        }
+    }
     }
 </script>
