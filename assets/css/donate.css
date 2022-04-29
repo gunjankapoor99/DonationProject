@@ -141,7 +141,7 @@
 .amount-rupee{
     display: flex;
     flex-direction: row;
-    width: 22rem;
+    width: 25rem;
    align-items: center;
    justify-content: space-between;
    font-size: larger;
@@ -179,10 +179,24 @@
     width: 12rem !important;
     color: #8d0a0ad1 !important;
     font-size: larger !important;
+    /* margin-top: 0.7rem !important; */
+}
+.moneyamnt{
+        width: 13rem !important;
+        color: #8d0a0ad1 !important;
+        font-size: larger !important;
+        margin-top: 0.7rem !important;
+    
 }
 .eduamnt2{
     width: 20rem !important;
     margin-left: 1rem;
+    /* margin-top: 0.5rem; */
+}
+.moneyamnt2{
+    width: 15rem !important;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
 }
 .clthitem1{
     margin-left: 0.8rem;
